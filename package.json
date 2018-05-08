@@ -1,0 +1,18 @@
+{
+  "name": "noop-consumer",
+  "version": "1.0.0",
+  "description": "kafka test consumer",
+  "main": "bin/consumer.js",
+  "scripts": {
+    "start": "node bin/consumer.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "eric@moven.com",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "bunyan": "^1.8.12",
+    "convict": "^4.2.0",
+    "node-rdkafka": "^2.3.1"
+  }
+}
